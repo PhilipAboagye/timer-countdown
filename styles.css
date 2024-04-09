@@ -81,7 +81,7 @@ body{
     }
 
     .timer__part {
-        font-size: 90px;
+        font-size: 50px;
         font-weight: bold;
         transition: width 0.8s ease-in-out;
     }
