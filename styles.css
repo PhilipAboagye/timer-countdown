@@ -142,7 +142,55 @@ body{
         background: #ff0256;
     }
   }
-  
+
+
+@media only screen and (min-width: 600px) {
+      .timer{
+        font-family: sans-serif;
+        display: inline-block;
+        padding: 24px 32px;
+        border-radius: 30px;
+        background: white;
+        margin-left: 100px;
+        margin-top: 200px;
+        transition: width 0.8s ease-in-out;
+    }
+
+    .timer__btn{
+        width: 50px;
+        height: 50px;
+        margin-left: 16px;
+        border-radius: 50%;
+        border: none;
+        color: white;
+        background: purple;
+        cursor: pointer;
+        transition: width 0.8s ease-in-out;
+    }
+
+    .btn{
+        background: #dddddd;
+        padding-left: 50px;
+        border-radius: 25px;
+        transition: width 0.8s ease-in-out;
+    }
+
+    .timer__part {
+        font-size: 90px;
+        font-weight: bold;
+        transition: width 0.8s ease-in-out;
+    }
+
+    .timer__btn--start{
+        background: #00b84c;
+    }
+    
+    .timer__btn--stop{
+        background: #ff0256;
+    }
+}
+
+
 /* Medium devices (tablets) */
   @media only screen and (min-width: 601px) and (max-width: 900px) {
     
